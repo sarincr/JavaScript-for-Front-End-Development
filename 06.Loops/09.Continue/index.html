@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript For Loop</h2>
+
+<p id="demo"></p>
+
+<script>
+var X = "";
+var i;
+for (i = 0; i < 5; i++) {
+  if (i === 3) {
+    continue;
+  }
+  X += "X = " + i + "<br>";
+}
+
+document.getElementById("demo").innerHTML = X;
+</script>
+
+</body>
+</html>

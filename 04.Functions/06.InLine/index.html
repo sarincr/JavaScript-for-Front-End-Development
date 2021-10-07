@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Functions</h2>
+
+
+<script>
+
+function outside(x) {
+  function inside(y) {
+    return x + y;
+  }
+  return inside;
+}
+fn_inside = outside(3);
+               
+result = fn_inside(5); 
+
+result1 = outside(3)(5); 
+alert(result )
+alert(result1 )
+
+</script>
+
+</body>
+</html>
