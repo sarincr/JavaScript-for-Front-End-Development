@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){  
+        $("#hide").click(function(){  
+        $("p").hide(2000);  
+    });  
+    $("#show").click(function(){  
+        $("p").show(5000);  
+    });  
+});  
+</script>
+</head>
+<body>
+
+<p>Hello World.</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis aspernatur veritatis nobis architecto officiis dicta soluta doloribus libero accusantium obcaecati odio, quod fugiat earum optio numquam eaque ut excepturi. Ad.</p>
+<button id="hide">Hide</button>  
+<button id="show">Show</button>   
+</body>
+</html>
