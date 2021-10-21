@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.jsdelivr.net/npm/umbrellajs"></script>
+<body>
+
+ <button class="click">Randomly click me</button>
+
+<script>
+u("button").on('click', function(){
+alert("Hello world");
+});
+</script>
+
+</body>
+</html>
+
