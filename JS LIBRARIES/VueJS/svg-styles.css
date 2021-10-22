@@ -1,0 +1,50 @@
+/* cursor pointer when hovering over SVG */
+.svg-wrapper {
+  cursor: pointer;
+}
+
+/* svg changes size on hover and click */
+.svg-wrapper:hover svg {
+  transform: scale(1.05, 1.05);
+  transition: transform 0.2s ease-in-out; 
+}
+
+.svg-wrapper:active svg {
+  transform: scale(0.95, 0.95);
+  transition: transform 0.1s ease-in-out;
+}
+
+/* svg color, changes on hover of element with class `.item` */
+.item svg {
+  stroke: #adb5bd;
+  transition: stroke 0.1s ease-in-out;
+}
+
+.item:hover svg {
+  stroke: #495057;
+  transition: stroke 0.1s ease-in-out;
+}
+
+/* svg trashcan color changes on hover of trashcan */
+.item .trash-svg:hover svg {
+  stroke: #f03e3e;
+  transition: stroke 0.2s ease-in-out;
+}
+
+/* svg checkbox color green */
+.item .circle-svg svg {
+  stroke: #69db7c;
+  transition: stroke 0.2s ease-in-out;
+}
+
+.item .check-circle-svg svg {
+  stroke: #37b24d;
+  transition: stroke 0.2s ease-in-out;
+}
+
+/* make plus and trashcan svg go to right */
+.trash-svg, .plus-circle-svg {
+  margin-left: auto;
+  padding: 0 10px;
+}
+

@@ -1,0 +1,74 @@
+/* list-input */
+input[type=text] {
+    padding: 5px;
+    margin: 0 10px;
+    border: 2px solid #ced4da;
+    border-radius: 4px;
+}
+
+/* list-stats */
+
+/* list-item */
+
+/* any item (used by list-item, list-input, list-stats */
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0;
+  padding: 12px 0 10px 10px;
+  background-color: #e9ecef;
+  box-shadow: 3px 3px 10px #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.1s ease-in-out;
+}
+
+.item:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 3px 3px 10px #d0ebff;
+  transition: all 0.1s ease-in-out;
+}
+
+.item p {
+  margin-bottom: 5px;
+  padding-left: 9px;
+}
+
+/* custom-header */
+header {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  padding: 8px;
+  font-size: 64px;
+}
+
+/* custom-main */
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#list-items-wrapper {
+  width: 85vw;
+  max-width: 600px;
+  min-width: 250px;
+}
+
+/* custom-footer */
+footer {
+  padding: 3px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 18px;
+}
