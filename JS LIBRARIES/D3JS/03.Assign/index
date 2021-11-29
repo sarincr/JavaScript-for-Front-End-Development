@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <script type = "text/javascript" src = "https://d3js.org/d3.v4.min.js"></script>
+   </head>
+
+   <body>
+      <p>
+         Hello World!
+      </p>
+
+      <script>
+         d3.selectAll("p").on("click", function() {
+             d3.select(this).style("color", "red");
+             });
+      </script>
+   </body>
+</html>
